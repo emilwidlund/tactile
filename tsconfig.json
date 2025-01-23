@@ -4,6 +4,7 @@
 		"outDir": "dist",
 		"skipLibCheck": true,
 		"declaration": true,
+        "jsx": "react",
 		"module": "esnext",
 		"moduleResolution": "node",
 		"allowSyntheticDefaultImports": true,
