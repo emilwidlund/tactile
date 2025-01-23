@@ -1,3 +1,5 @@
-import { Button as ButtonPrimitive } from "radix-ui";
+import React from "react";
 
-export const Button = ButtonPrimitive;
+export const Button = () => {
+	return <button>Click me</button>;
+};

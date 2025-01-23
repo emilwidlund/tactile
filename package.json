@@ -1,7 +1,62 @@
 {
 	"name": "@tactile-ui/react",
 	"version": "0.1.0",
+	"type": "module",
+	"main": "./dist/index.cjs",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		"import": {
+			"types": "./dist/index.d.ts",
+			"import": "./dist/index.js"
+		},
+		"require": {
+			"types": "./dist/index.d.cts",
+			"require": "./dist/index.cjs"
+		}
+	},
+
+	"scripts": {
+		"build": "tsup ./src/index.ts --format esm,cjs --dts --clean --sourcemap",
+		"check": "pnpm biome check --write .",
+		"storybook": "storybook dev -p 6006",
+		"build-storybook": "storybook build"
+	},
 	"dependencies": {
 		"radix-ui": "^1.1.2"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@chromatic-com/storybook": "^3.2.4",
+		"@sindresorhus/tsconfig": "^7.0.0",
+		"@storybook/addon-essentials": "^8.5.1",
+		"@storybook/addon-interactions": "^8.5.1",
+		"@storybook/addon-onboarding": "^8.5.1",
+		"@storybook/blocks": "^8.5.1",
+		"@storybook/manager-api": "^8.5.1",
+		"@storybook/react": "^8.5.1",
+		"@storybook/react-vite": "^8.5.1",
+		"@storybook/test": "^8.5.1",
+		"@storybook/theming": "^8.5.1",
+		"@types/react": "^19.0.8",
+		"@vitejs/plugin-react": "^4.3.4",
+		"class-variance-authority": "^0.7.1",
+		"clsx": "^2.1.1",
+		"prop-types": "^15.8.1",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0",
+		"storybook": "^8.5.1",
+		"storybook-dark-mode": "^4.0.2",
+		"tailwind-merge": "^2.6.0",
+		"tailwindcss-animate": "^1.0.7",
+		"vite": "^6.0.11"
+	},
+	"peerDependencies": {
+		"class-variance-authority": "^0.7.1",
+		"clsx": "^2.1.1",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0",
+		"tailwind-merge": "^2.6.0",
+		"tailwindcss-animate": "^1.0.7"
 	}
 }
