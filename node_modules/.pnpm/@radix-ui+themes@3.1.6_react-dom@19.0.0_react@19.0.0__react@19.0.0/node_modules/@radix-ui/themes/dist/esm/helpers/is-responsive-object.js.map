@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/helpers/is-responsive-object.ts"],
+  "sourcesContent": ["import { breakpoints } from '../props/prop-def.js';\n\nimport type { Responsive, Breakpoint } from '../props/prop-def.js';\n\nexport function isResponsiveObject<Value extends string>(\n  obj: Responsive<Value | Omit<string, Value>> | undefined\n): obj is Record<Breakpoint, string> {\n  return (\n    typeof obj === 'object' &&\n    Object.keys(obj).some((key) => (breakpoints as readonly string[]).includes(key))\n  );\n}\n"],
+  "mappings": "AAAA,OAAS,eAAAA,MAAmB,uBAIrB,SAASC,EACdC,EACmC,CACnC,OACE,OAAOA,GAAQ,UACf,OAAO,KAAKA,CAAG,EAAE,KAAMC,GAASH,EAAkC,SAASG,CAAG,CAAC,CAEnF",
+  "names": ["breakpoints", "isResponsiveObject", "obj", "key"]
+}

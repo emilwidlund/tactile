@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/helpers/has-own-property.ts"],
+  "sourcesContent": ["/** A util to check whether the object has a key, while inferring the correct key type */\nfunction hasOwnProperty<K extends string | number | symbol>(\n  obj: Record<K, unknown>,\n  key: string | number | symbol\n): key is K {\n  return Object.prototype.hasOwnProperty.call(obj, key);\n}\n\nexport { hasOwnProperty };\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,oBAAAE,IAAA,eAAAC,EAAAH,GACA,SAASE,EACPE,EACAC,EACU,CACV,OAAO,OAAO,UAAU,eAAe,KAAKD,EAAKC,CAAG,CACtD",
+  "names": ["has_own_property_exports", "__export", "hasOwnProperty", "__toCommonJS", "obj", "key"]
+}

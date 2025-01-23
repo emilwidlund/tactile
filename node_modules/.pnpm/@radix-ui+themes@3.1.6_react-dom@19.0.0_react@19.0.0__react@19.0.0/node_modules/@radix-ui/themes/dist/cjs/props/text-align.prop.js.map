@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/props/text-align.prop.ts"],
+  "sourcesContent": ["import type { PropDef } from './prop-def.js';\n\nconst textAlignValues = ['left', 'center', 'right'] as const;\n\nconst textAlignPropDef = {\n  align: {\n    type: 'enum',\n    className: 'rt-r-ta',\n    values: textAlignValues,\n    responsive: true,\n  },\n} satisfies {\n  align: PropDef<(typeof textAlignValues)[number]>;\n};\n\nexport { textAlignPropDef };\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,sBAAAE,IAAA,eAAAC,EAAAH,GAEA,MAAMI,EAAkB,CAAC,OAAQ,SAAU,OAAO,EAE5CF,EAAmB,CACvB,MAAO,CACL,KAAM,OACN,UAAW,UACX,OAAQE,EACR,WAAY,EACd,CACF",
+  "names": ["text_align_prop_exports", "__export", "textAlignPropDef", "__toCommonJS", "textAlignValues"]
+}

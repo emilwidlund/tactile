@@ -1,0 +1,2 @@
+import{asChildPropDef as s}from"../props/as-child.prop.js";const r=["1","2","3","4"],t=["none","initial"],p=["left","center","right"],n={...s,size:{type:"enum",className:"rt-r-size",values:r,default:"4",responsive:!0},display:{type:"enum",className:"rt-r-display",values:t,parseValue:a,responsive:!0},align:{type:"enum",className:"rt-r-ai",values:p,parseValue:i,responsive:!0}};function a(e){return e==="initial"?"flex":e}function i(e){return e==="left"?"start":e==="right"?"end":e}export{n as containerPropDefs};
+//# sourceMappingURL=container.props.js.map

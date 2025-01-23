@@ -1,0 +1,2 @@
+import*as o from"react";import a from"classnames";import{extractProps as n}from"../helpers/extract-props.js";import{layoutPropDefs as i}from"../props/layout.props.js";import{marginPropDefs as P}from"../props/margin.props.js";import{Slot as x}from"./slot.js";import{flexPropDefs as f}from"./flex.props.js";const p=o.forwardRef((r,e)=>{const{className:s,asChild:t,as:m="div",...l}=n(r,f,i,P);return o.createElement(t?x:m,{...l,ref:e,className:a("rt-Flex",s)})});p.displayName="Flex";export{p as Flex};
+//# sourceMappingURL=flex.js.map

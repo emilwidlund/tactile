@@ -1,0 +1,2 @@
+import{asChildPropDef as t}from"../props/as-child.prop.js";import{widthPropDefs as e}from"../props/width.props.js";import{heightPropDefs as o}from"../props/height.props.js";const a=["start","center"],r=["1","2","3","4"],s={...t,align:{type:"enum",className:"rt-r-align",values:["start","center"],default:"center"},size:{type:"enum",className:"rt-r-size",values:r,default:"3",responsive:!0},width:e.width,minWidth:e.minWidth,maxWidth:{...e.maxWidth,default:"600px"},...o};export{s as dialogContentPropDefs};
+//# sourceMappingURL=dialog.props.js.map

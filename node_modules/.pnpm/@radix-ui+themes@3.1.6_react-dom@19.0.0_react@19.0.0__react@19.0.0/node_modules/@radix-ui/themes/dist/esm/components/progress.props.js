@@ -1,0 +1,2 @@
+import{colorPropDef as r}from"../props/color.prop.js";import{highContrastPropDef as s}from"../props/high-contrast.prop.js";import{radiusPropDef as e}from"../props/radius.prop.js";const o=["1","2","3"],t=["classic","surface","soft"],a={size:{type:"enum",className:"rt-r-size",values:o,default:"2",responsive:!0},variant:{type:"enum",className:"rt-variant",values:t,default:"surface"},...r,...s,...e,duration:{type:"string"}};export{a as progressPropDefs};
+//# sourceMappingURL=progress.props.js.map

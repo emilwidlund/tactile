@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/props/high-contrast.prop.ts"],
+  "sourcesContent": ["import type { PropDef } from './prop-def.js';\n\nconst highContrastPropDef = {\n  highContrast: {\n    type: 'boolean',\n    className: 'rt-high-contrast',\n    default: undefined,\n  },\n} satisfies {\n  highContrast: PropDef<boolean>;\n};\n\nexport { highContrastPropDef };\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,yBAAAE,IAAA,eAAAC,EAAAH,GAEA,MAAME,EAAsB,CAC1B,aAAc,CACZ,KAAM,UACN,UAAW,mBACX,QAAS,MACX,CACF",
+  "names": ["high_contrast_prop_exports", "__export", "highContrastPropDef", "__toCommonJS"]
+}

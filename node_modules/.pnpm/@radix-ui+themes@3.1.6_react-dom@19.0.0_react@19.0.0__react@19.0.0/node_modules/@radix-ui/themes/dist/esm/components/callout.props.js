@@ -1,0 +1,2 @@
+import{asChildPropDef as e}from"../props/as-child.prop.js";import{accentColorPropDef as o}from"../props/color.prop.js";import{highContrastPropDef as s}from"../props/high-contrast.prop.js";const t=["1","2","3"],r=["soft","surface","outline"],a={...e,size:{type:"enum",className:"rt-r-size",values:t,default:"2",responsive:!0},variant:{type:"enum",className:"rt-variant",values:r,default:"soft"},...o,...s};export{a as calloutRootPropDefs};
+//# sourceMappingURL=callout.props.js.map

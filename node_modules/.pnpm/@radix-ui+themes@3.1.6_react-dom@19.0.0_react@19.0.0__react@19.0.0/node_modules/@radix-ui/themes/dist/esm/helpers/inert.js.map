@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/helpers/inert.ts"],
+  "sourcesContent": ["import * as React from 'react';\n\n// \"inert\" works differently between React versions\n// https://github.com/facebook/react/pull/24730\nexport const inert = parseFloat(React.version) >= 19 || '';\n"],
+  "mappings": "AAAA,UAAYA,MAAW,QAIhB,MAAMC,EAAQ,WAAWD,EAAM,OAAO,GAAK,IAAM",
+  "names": ["React", "inert"]
+}

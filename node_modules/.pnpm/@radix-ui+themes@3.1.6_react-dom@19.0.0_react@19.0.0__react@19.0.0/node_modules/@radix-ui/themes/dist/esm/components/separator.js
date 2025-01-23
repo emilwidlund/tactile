@@ -1,0 +1,2 @@
+import*as r from"react";import n from"classnames";import{separatorPropDefs as f}from"./separator.props.js";import{extractProps as i}from"../helpers/extract-props.js";import{marginPropDefs as P}from"../props/margin.props.js";const o=r.forwardRef((p,e)=>{const{className:t,color:a,decorative:s,...m}=i(p,f,P);return r.createElement("span",{"data-accent-color":a,role:s?void 0:"separator",...m,ref:e,className:n("rt-Separator",t)})});o.displayName="Separator";export{o as Separator};
+//# sourceMappingURL=separator.js.map

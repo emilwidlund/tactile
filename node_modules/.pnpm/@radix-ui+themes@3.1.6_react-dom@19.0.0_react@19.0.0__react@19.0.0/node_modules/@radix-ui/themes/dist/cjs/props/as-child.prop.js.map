@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/props/as-child.prop.ts"],
+  "sourcesContent": ["import type { PropDef } from './prop-def.js';\n\nconst asChildPropDef = {\n  /**\n   * Composes the component into its immediate child instead of rendering its own HTML element.\n   * You\u2019ll have to provide a single React Element child.\n   */\n  asChild: {\n    type: 'boolean',\n  },\n} satisfies {\n  asChild: PropDef<boolean>;\n};\n\nexport { asChildPropDef };\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,oBAAAE,IAAA,eAAAC,EAAAH,GAEA,MAAME,EAAiB,CAKrB,QAAS,CACP,KAAM,SACR,CACF",
+  "names": ["as_child_prop_exports", "__export", "asChildPropDef", "__toCommonJS"]
+}

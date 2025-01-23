@@ -1,0 +1,2 @@
+import{asChildPropDef as s}from"../props/as-child.prop.js";import{colorPropDef as r}from"../props/color.prop.js";import{highContrastPropDef as e}from"../props/high-contrast.prop.js";const o=["1","2","3"],t=["classic","surface","soft"],a={...s,size:{type:"enum",className:"rt-r-size",values:o,default:"2",responsive:!0},variant:{type:"enum",className:"rt-variant",values:t,default:"surface"},...r,...e};export{a as radioGroupRootPropDefs};
+//# sourceMappingURL=radio-group.props.js.map

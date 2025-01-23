@@ -1,0 +1,2 @@
+const e=["0","1","2","3","4","5","6","7","8","9"],p={gap:{type:"enum | string",className:"rt-r-gap",customProperties:["--gap"],values:e,responsive:!0},gapX:{type:"enum | string",className:"rt-r-cg",customProperties:["--column-gap"],values:e,responsive:!0},gapY:{type:"enum | string",className:"rt-r-rg",customProperties:["--row-gap"],values:e,responsive:!0}};export{p as gapPropDefs};
+//# sourceMappingURL=gap.props.js.map

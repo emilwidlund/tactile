@@ -1,0 +1,7 @@
+{
+	"name": "@tactile-ui/react",
+	"version": "0.1.0",
+	"dependencies": {
+		"radix-ui": "^1.1.2"
+	}
+}

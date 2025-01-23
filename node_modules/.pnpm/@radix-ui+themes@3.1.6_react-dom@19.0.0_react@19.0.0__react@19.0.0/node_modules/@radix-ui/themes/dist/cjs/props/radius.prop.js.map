@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/props/radius.prop.ts"],
+  "sourcesContent": ["import type { PropDef } from './prop-def.js';\n\nconst radii = ['none', 'small', 'medium', 'large', 'full'] as const;\n\nconst radiusPropDef = {\n  radius: {\n    type: 'enum',\n    values: radii,\n    default: undefined,\n  },\n} satisfies {\n  radius: PropDef<(typeof radii)[number]>;\n};\n\nexport { radiusPropDef, radii };\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,WAAAE,EAAA,kBAAAC,IAAA,eAAAC,EAAAJ,GAEA,MAAME,EAAQ,CAAC,OAAQ,QAAS,SAAU,QAAS,MAAM,EAEnDC,EAAgB,CACpB,OAAQ,CACN,KAAM,OACN,OAAQD,EACR,QAAS,MACX,CACF",
+  "names": ["radius_prop_exports", "__export", "radii", "radiusPropDef", "__toCommonJS"]
+}

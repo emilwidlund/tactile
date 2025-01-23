@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/props/weight.prop.ts"],
+  "sourcesContent": ["import type { PropDef } from './prop-def.js';\n\nconst weights = ['light', 'regular', 'medium', 'bold'] as const;\n\nconst weightPropDef = {\n  weight: {\n    type: 'enum',\n    className: 'rt-r-weight',\n    values: weights,\n    responsive: true,\n  },\n} satisfies {\n  weight: PropDef<(typeof weights)[number]>;\n};\n\nexport { weightPropDef };\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,mBAAAE,IAAA,eAAAC,EAAAH,GAEA,MAAMI,EAAU,CAAC,QAAS,UAAW,SAAU,MAAM,EAE/CF,EAAgB,CACpB,OAAQ,CACN,KAAM,OACN,UAAW,cACX,OAAQE,EACR,WAAY,EACd,CACF",
+  "names": ["weight_prop_exports", "__export", "weightPropDef", "__toCommonJS", "weights"]
+}

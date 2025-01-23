@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/helpers/merge-styles.ts"],
+  "sourcesContent": ["type InlineStyle =\n  | React.CSSProperties\n  | Record<string, string | number | null | undefined>\n  | undefined;\n\n// Merges CSS styles like `classNames` merges CSS classes\nexport function mergeStyles(...styles: Array<InlineStyle>): InlineStyle {\n  let result: InlineStyle = {};\n\n  for (const style of styles) {\n    if (style) {\n      result = { ...result, ...style };\n    }\n  }\n\n  return Object.keys(result).length ? result : undefined;\n}\n"],
+  "mappings": "AAMO,SAASA,KAAeC,EAAyC,CACtE,IAAIC,EAAsB,CAAC,EAE3B,UAAWC,KAASF,EACdE,IACFD,EAAS,CAAE,GAAGA,EAAQ,GAAGC,CAAM,GAInC,OAAO,OAAO,KAAKD,CAAM,EAAE,OAASA,EAAS,MAC/C",
+  "names": ["mergeStyles", "styles", "result", "style"]
+}

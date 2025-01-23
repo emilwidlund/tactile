@@ -1,0 +1,2 @@
+import{colorPropDef as s}from"../props/color.prop.js";import{highContrastPropDef as e}from"../props/high-contrast.prop.js";import{radiusPropDef as r}from"../props/radius.prop.js";const o=["1","2","3"],t=["classic","surface","soft"],a={size:{type:"enum",className:"rt-r-size",values:o,default:"2",responsive:!0},variant:{type:"enum",className:"rt-variant",values:t,default:"surface"},...s,...e,...r};export{a as switchPropDefs};
+//# sourceMappingURL=switch.props.js.map

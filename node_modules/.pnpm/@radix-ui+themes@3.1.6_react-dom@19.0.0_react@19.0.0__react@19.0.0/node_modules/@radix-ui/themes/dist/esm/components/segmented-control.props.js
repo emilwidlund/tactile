@@ -1,0 +1,2 @@
+import{radiusPropDef as e}from"../props/radius.prop.js";const s=["1","2","3"],a=["surface","classic"],o={disabled:{type:"boolean",className:"disabled",default:!1},size:{type:"enum",className:"rt-r-size",values:s,default:"2",responsive:!0},variant:{type:"enum",className:"rt-variant",values:a,default:"surface"},...e};export{o as segmentedControlRootPropDefs};
+//# sourceMappingURL=segmented-control.props.js.map

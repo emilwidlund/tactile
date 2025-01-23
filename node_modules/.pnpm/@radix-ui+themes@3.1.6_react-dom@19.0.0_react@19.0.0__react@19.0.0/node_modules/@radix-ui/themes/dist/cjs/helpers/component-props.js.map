@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/helpers/component-props.ts"],
+  "sourcesContent": ["import type React from 'react';\n\ntype ComponentPropsAs<\n  C extends React.ElementType<any>,\n  T extends React.ComponentPropsWithoutRef<C>['as']\n> = Omit<Extract<React.ComponentPropsWithoutRef<C>, { as: T }>, 'as' | 'asChild'>;\n\n// Omits the specified props from the component props. Autocomplete will suggest props\n// of the component, but won't restrict the omittable props to those that actually exist.\ntype ComponentPropsWithout<\n  T extends React.ElementType,\n  O extends\n    | Omit<string, keyof React.ComponentPropsWithoutRef<T>>\n    | keyof React.ComponentPropsWithoutRef<T>\n> = Omit<React.ComponentPropsWithoutRef<T>, O & string>;\n\ntype RemovedProps = 'asChild' | 'defaultChecked' | 'defaultValue' | 'color';\n\nexport type { ComponentPropsAs, ComponentPropsWithout, RemovedProps };\n"],
+  "mappings": "+WAAA,IAAAA,EAAA,kBAAAC,EAAAD",
+  "names": ["component_props_exports", "__toCommonJS"]
+}

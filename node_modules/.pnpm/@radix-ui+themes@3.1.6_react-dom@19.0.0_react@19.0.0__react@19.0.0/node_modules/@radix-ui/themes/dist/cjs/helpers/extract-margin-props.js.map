@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/helpers/extract-margin-props.ts"],
+  "sourcesContent": ["import type { MarginProps } from '../props/margin.props.js';\n\nexport function extractMarginProps<T extends MarginProps>(props: T) {\n  const { m, mx, my, mt, mr, mb, ml, ...rest } = props;\n  return { m, mx, my, mt, mr, mb, ml, rest };\n}\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,wBAAAE,IAAA,eAAAC,EAAAH,GAEO,SAASE,EAA0CE,EAAU,CAClE,KAAM,CAAE,EAAAC,EAAG,GAAAC,EAAI,GAAAC,EAAI,GAAAC,EAAI,GAAAC,EAAI,GAAAC,EAAI,GAAAC,EAAI,GAAGC,CAAK,EAAIR,EAC/C,MAAO,CAAE,EAAAC,EAAG,GAAAC,EAAI,GAAAC,EAAI,GAAAC,EAAI,GAAAC,EAAI,GAAAC,EAAI,GAAAC,EAAI,KAAAC,CAAK,CAC3C",
+  "names": ["extract_margin_props_exports", "__export", "extractMarginProps", "__toCommonJS", "props", "m", "mx", "my", "mt", "mr", "mb", "ml", "rest"]
+}

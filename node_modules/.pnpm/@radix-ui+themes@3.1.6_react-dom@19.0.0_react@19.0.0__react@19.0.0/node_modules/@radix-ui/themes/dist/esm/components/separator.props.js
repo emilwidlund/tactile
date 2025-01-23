@@ -1,0 +1,2 @@
+import{colorPropDef as o}from"../props/color.prop.js";const e=["horizontal","vertical"],r=["1","2","3","4"],t={orientation:{type:"enum",className:"rt-r-orientation",values:e,default:"horizontal",responsive:!0},size:{type:"enum",className:"rt-r-size",values:r,default:"1",responsive:!0},color:{...o.color,default:"gray"},decorative:{type:"boolean",default:!0}};export{t as separatorPropDefs};
+//# sourceMappingURL=separator.props.js.map

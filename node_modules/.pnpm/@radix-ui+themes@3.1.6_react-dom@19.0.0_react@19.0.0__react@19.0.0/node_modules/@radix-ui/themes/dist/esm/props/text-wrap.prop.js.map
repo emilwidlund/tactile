@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/props/text-wrap.prop.ts"],
+  "sourcesContent": ["import type { PropDef } from './prop-def.js';\n\nconst textWrapValues = ['wrap', 'nowrap', 'pretty', 'balance'] as const;\n\nconst textWrapPropDef = {\n  wrap: {\n    type: 'enum',\n    className: 'rt-r-tw',\n    values: textWrapValues,\n    responsive: true,\n  },\n} satisfies {\n  wrap: PropDef<(typeof textWrapValues)[number]>;\n};\n\nexport { textWrapPropDef };\n"],
+  "mappings": "AAEA,MAAMA,EAAiB,CAAC,OAAQ,SAAU,SAAU,SAAS,EAEvDC,EAAkB,CACtB,KAAM,CACJ,KAAM,OACN,UAAW,UACX,OAAQD,EACR,WAAY,EACd,CACF",
+  "names": ["textWrapValues", "textWrapPropDef"]
+}

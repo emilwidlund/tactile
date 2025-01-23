@@ -1,0 +1,2 @@
+import{asChildPropDef as t}from"../props/as-child.prop.js";import{heightPropDefs as o}from"../props/height.props.js";import{widthPropDefs as e}from"../props/width.props.js";const p=["1","2","3","4"],r={...t,size:{type:"enum",className:"rt-r-size",values:p,default:"2",responsive:!0},width:e.width,minWidth:e.minWidth,maxWidth:{...e.maxWidth,default:"480px"},...o};export{r as popoverContentPropDefs};
+//# sourceMappingURL=popover.props.js.map

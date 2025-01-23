@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/helpers/get-matching-gray-color.ts"],
+  "sourcesContent": ["import type { accentColors } from '../props/color.prop.js';\n\ntype ThemeAccentColor = (typeof accentColors)[number];\n\nexport function getMatchingGrayColor(accentColor: ThemeAccentColor) {\n  switch (accentColor) {\n    case 'tomato':\n    case 'red':\n    case 'ruby':\n    case 'crimson':\n    case 'pink':\n    case 'plum':\n    case 'purple':\n    case 'violet':\n      return 'mauve';\n    case 'iris':\n    case 'indigo':\n    case 'blue':\n    case 'sky':\n    case 'cyan':\n      return 'slate';\n    case 'teal':\n    case 'jade':\n    case 'mint':\n    case 'green':\n      return 'sage';\n    case 'grass':\n    case 'lime':\n      return 'olive';\n    case 'yellow':\n    case 'amber':\n    case 'orange':\n    case 'brown':\n    case 'gold':\n    case 'bronze':\n      return 'sand';\n    case 'gray':\n      return 'gray';\n  }\n}\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,0BAAAE,IAAA,eAAAC,EAAAH,GAIO,SAASE,EAAqBE,EAA+B,CAClE,OAAQA,EAAa,CACnB,IAAK,SACL,IAAK,MACL,IAAK,OACL,IAAK,UACL,IAAK,OACL,IAAK,OACL,IAAK,SACL,IAAK,SACH,MAAO,QACT,IAAK,OACL,IAAK,SACL,IAAK,OACL,IAAK,MACL,IAAK,OACH,MAAO,QACT,IAAK,OACL,IAAK,OACL,IAAK,OACL,IAAK,QACH,MAAO,OACT,IAAK,QACL,IAAK,OACH,MAAO,QACT,IAAK,SACL,IAAK,QACL,IAAK,SACL,IAAK,QACL,IAAK,OACL,IAAK,SACH,MAAO,OACT,IAAK,OACH,MAAO,MACX,CACF",
+  "names": ["get_matching_gray_color_exports", "__export", "getMatchingGrayColor", "__toCommonJS", "accentColor"]
+}

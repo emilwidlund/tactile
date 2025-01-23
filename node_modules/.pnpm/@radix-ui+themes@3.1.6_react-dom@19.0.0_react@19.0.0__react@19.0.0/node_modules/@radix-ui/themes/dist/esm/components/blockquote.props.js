@@ -1,0 +1,2 @@
+import{asChildPropDef as o}from"../props/as-child.prop.js";import{colorPropDef as r}from"../props/color.prop.js";import{highContrastPropDef as e}from"../props/high-contrast.prop.js";import{textWrapPropDef as p}from"../props/text-wrap.prop.js";import{truncatePropDef as t}from"../props/truncate.prop.js";import{weightPropDef as s}from"../props/weight.prop.js";const f=["1","2","3","4","5","6","7","8","9"],i={...o,size:{type:"enum",className:"rt-r-size",values:f,responsive:!0},...s,...r,...e,...t,...p};export{i as blockquotePropDefs};
+//# sourceMappingURL=blockquote.props.js.map

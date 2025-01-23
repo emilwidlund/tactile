@@ -1,0 +1,2 @@
+const o=["gray","gold","bronze","brown","yellow","amber","orange","tomato","red","ruby","crimson","pink","plum","purple","violet","iris","indigo","blue","cyan","teal","jade","green","grass","lime","mint","sky"],e=["auto","gray","mauve","slate","sage","olive","sand"],r={color:{type:"enum",values:o,default:void 0}},s={color:{type:"enum",values:o,default:""}};export{s as accentColorPropDef,o as accentColors,r as colorPropDef,e as grayColors};
+//# sourceMappingURL=color.prop.js.map

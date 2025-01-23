@@ -1,0 +1,2 @@
+import*as o from"react";import n from"classnames";import{Slot as i}from"./slot.js";import{boxPropDefs as P}from"./box.props.js";import{extractProps as x}from"../helpers/extract-props.js";import{layoutPropDefs as f}from"../props/layout.props.js";import{marginPropDefs as B}from"../props/margin.props.js";const p=o.forwardRef((r,s)=>{const{className:t,asChild:e,as:m="div",...a}=x(r,P,f,B);return o.createElement(e?i:m,{...a,ref:s,className:n("rt-Box",t)})});p.displayName="Box";export{p as Box};
+//# sourceMappingURL=box.js.map

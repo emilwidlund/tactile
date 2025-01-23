@@ -1,0 +1,2 @@
+import{colorPropDef as e}from"../props/color.prop.js";import{radiusPropDef as s}from"../props/radius.prop.js";const r=["1","2","3"],t=["classic","surface","soft"],o=["none","vertical","horizontal","both"],a={size:{type:"enum",className:"rt-r-size",values:r,default:"2",responsive:!0},variant:{type:"enum",className:"rt-variant",values:t,default:"surface"},resize:{type:"enum",className:"rt-r-resize",values:o,responsive:!0},...e,...s};export{a as textAreaPropDefs};
+//# sourceMappingURL=text-area.props.js.map

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/props/leading-trim.prop.ts"],
+  "sourcesContent": ["import type { PropDef } from './prop-def.js';\n\nconst leadingTrimValues = ['normal', 'start', 'end', 'both'] as const;\n\nconst leadingTrimPropDef = {\n  trim: {\n    type: 'enum',\n    className: 'rt-r-lt',\n    values: leadingTrimValues,\n    responsive: true,\n  },\n} satisfies {\n  trim: PropDef<(typeof leadingTrimValues)[number]>;\n};\n\nexport { leadingTrimPropDef };\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,wBAAAE,IAAA,eAAAC,EAAAH,GAEA,MAAMI,EAAoB,CAAC,SAAU,QAAS,MAAO,MAAM,EAErDF,EAAqB,CACzB,KAAM,CACJ,KAAM,OACN,UAAW,UACX,OAAQE,EACR,WAAY,EACd,CACF",
+  "names": ["leading_trim_prop_exports", "__export", "leadingTrimPropDef", "__toCommonJS", "leadingTrimValues"]
+}

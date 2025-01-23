@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/props/truncate.prop.ts"],
+  "sourcesContent": ["import type { PropDef } from './prop-def.js';\n\nconst truncatePropDef = {\n  truncate: {\n    type: 'boolean',\n    className: 'rt-truncate',\n  },\n} satisfies {\n  truncate: PropDef<boolean>;\n};\n\nexport { truncatePropDef };\n"],
+  "mappings": "yaAAA,IAAAA,EAAA,GAAAC,EAAAD,EAAA,qBAAAE,IAAA,eAAAC,EAAAH,GAEA,MAAME,EAAkB,CACtB,SAAU,CACR,KAAM,UACN,UAAW,aACb,CACF",
+  "names": ["truncate_prop_exports", "__export", "truncatePropDef", "__toCommonJS"]
+}

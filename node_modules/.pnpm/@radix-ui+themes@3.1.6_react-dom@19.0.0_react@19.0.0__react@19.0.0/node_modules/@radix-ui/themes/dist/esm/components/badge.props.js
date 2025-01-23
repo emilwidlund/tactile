@@ -1,0 +1,2 @@
+import{asChildPropDef as e}from"../props/as-child.prop.js";import{accentColorPropDef as r}from"../props/color.prop.js";import{highContrastPropDef as s}from"../props/high-contrast.prop.js";import{radiusPropDef as o}from"../props/radius.prop.js";const t=["1","2","3"],a=["solid","soft","surface","outline"],p={...e,size:{type:"enum",className:"rt-r-size",values:t,default:"1",responsive:!0},variant:{type:"enum",className:"rt-variant",values:a,default:"soft"},...r,...s,...o};export{p as badgePropDefs};
+//# sourceMappingURL=badge.props.js.map

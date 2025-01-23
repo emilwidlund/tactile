@@ -1,0 +1,2 @@
+import*as r from"react";import a from"classnames";import{Slot as d}from"./slot.js";import{gridPropDefs as n}from"./grid.props.js";import{extractProps as P}from"../helpers/extract-props.js";import{layoutPropDefs as f}from"../props/layout.props.js";import{marginPropDefs as G}from"../props/margin.props.js";const o=r.forwardRef((p,s)=>{const{className:t,asChild:e,as:i="div",...m}=P(p,n,f,G);return r.createElement(e?d:i,{...m,ref:s,className:a("rt-Grid",t)})});o.displayName="Grid";export{o as Grid};
+//# sourceMappingURL=grid.js.map

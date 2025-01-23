@@ -1,0 +1,2 @@
+import*as o from"react";import a from"classnames";import{Text as f}from"./text.js";import{extractProps as P}from"../helpers/extract-props.js";import{linkPropDefs as l}from"./link.props.js";const e=o.forwardRef((p,t)=>{const{children:r,className:s,color:n,asChild:i,...m}=P(p,l);return o.createElement(f,{...m,"data-accent-color":n,ref:t,asChild:!0,className:a("rt-reset","rt-Link",s)},i?r:o.createElement("a",null,r))});e.displayName="Link";export{e as Link};
+//# sourceMappingURL=link.js.map
